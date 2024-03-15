@@ -43,3 +43,25 @@ console.log("Hi I am A Function");
 }
 myfun()
 console.log(typeof myfun);
+
+//STACK(primitive) AND HEAP(non primitive) MEMORY
+
+let myname="nasiralibaloch"
+let anothername=myname
+anothername="chai aur code"
+console.log(myname);
+console.log(anothername);
+
+let userone={
+    Email:"nasiralibaloch@gmail",
+    upi:"user@gpl"
+}
+let usertwo=userone
+usertwo.Email="alinasir@gmail"
+upi="user@ybl"
+console.log(userone.Email);
+console.log(usertwo.Email);
+console.log(userone.upi);
+console.log(usertwo.upi);
+
+
